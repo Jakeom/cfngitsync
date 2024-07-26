@@ -1,3 +1,4 @@
-template-file-path: ./testgitsync-deploy.yaml
-parameters: 
-    BucketName: jakeomtest1010203
+template-file-path: testgitsync-deploy.yaml
+parameters:
+  BucketName: jakeom-asdfasdf1122
+tags: {}
