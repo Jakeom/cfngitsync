@@ -2,4 +2,9 @@ Resources:
   S3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: 'jakeom-cfnsync-test'
+      BucketName: !Ref BucketName
+  
+Parameters:
+  BucketName:
+    Type: String
+    Description: Name of the S3 bucket
